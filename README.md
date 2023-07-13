@@ -154,7 +154,7 @@ Note: Make sure to update the mysql database to actual data of NSFs
 
 Patrick Lingga - https://patrick8link.github.io/
 
-Project Link: [https://github.com/patrick8link/i2nsf-security-controller/tree/1.1](https://github.com/patrick8link/i2nsf-security-controller/tree/1.1)
+Project Link: [https://github.com/patrick8link/i2nsf-dms](https://github.com/patrick8link/i2nsf-dms)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
