@@ -91,7 +91,7 @@ _Below is an example of how you can instruct your audience on installing and set
    ```sh
    sudo apt update
    sudo apt install unzip libxml2-utils
-   sudo python3 ~/DMS/get-pip.py
+   sudo python3 ~/i2nsf-dms/get-pip.py
    python3 -m pip install pyopenssl --upgrade
    unzip confd-basic-8.0.4.linux.x86_64.zip
    sudo ln -s /usr/bin/python3 /usr/bin/python
