@@ -125,7 +125,7 @@ Get ConfD developed by Cisco tail-f [here](https://developer.cisco.com/site/conf
    ```mysql
    mysql> CREATE DATABASE nsf;
    mysql> USE nsf;
-   mysql> source dmsDB.sql
+   mysql> source nsfDB.sql
    ```
 
 Note: Make sure to update the mysql database to actual data of NSFs
