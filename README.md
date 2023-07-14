@@ -80,17 +80,15 @@ Get ConfD developed by Cisco tail-f [here](https://developer.cisco.com/site/conf
 
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
-
-
 1. Clone the repo
    ```sh
    git clone https://github.com/patrick8link/i2nsf-dms/
    ```
 2. Install confd - For more information access [ConfD Kick Start Guide](https://info.tail-f.com/confd-evaluation-kick-start-guide)
    ```sh
-   sudo apt install unzip libxml2-utils subversion
-   sudo python3 ~/DMS/get-pip.py
+   sudo apt update
+   sudo apt install unzip libxml2-utils
+   sudo python3 ~/i2nsf-dms/get-pip.py
    python3 -m pip install pyopenssl --upgrade
    unzip confd-basic-8.0.4.linux.x86_64.zip
    sudo ln -s /usr/bin/python3 /usr/bin/python
@@ -140,7 +138,8 @@ Note: Make sure to update the mysql database to actual data of NSFs
 
 1. Run the DMS server with confd
    ```sh
-   cd ~/DMS/react
+   cd ~/i2nsf-dms/dms-server
+   source ~/confd/confdrc
    make clean all start
    ```
 
