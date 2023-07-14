@@ -30,7 +30,7 @@
     <br />
     <a href="https://www.youtube.com/watch?v=OWNJbF7wGgs&ab_channel=PatrickLingga">View Demo</a>
     ·
-    <a href="https://github.com/patrick8link/i2nsf-security-controller/issues">Report Bug</a>
+    <a href="https://github.com/patrick8link/i2nsf-dms/issues">Report Bug</a>
   </p>
 </div>
 
