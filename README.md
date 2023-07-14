@@ -140,7 +140,7 @@ Note: Make sure to update the mysql database to actual data of NSFs
 
 1. Run the DMS server with confd
    ```sh
-   cd ~/DMS/react
+   cd ~/i2nsf-dms/dms-server
    source ~/confd/confdrc
    make clean all start
    ```
